@@ -1,0 +1,153 @@
+/* start header */
+header {
+  top: 0;
+  left: 0;
+  right: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 0.875rem;
+  line-height: 1.2;
+  background: linear-gradient(-180deg, #f53d2d, #f63);
+  height: 119px;
+}
+.navbar {
+  height: 2.125rem;
+}
+.hr1 {
+  width: 2px;
+  height: 15px;
+  background-color: rgb(175, 175, 175);
+  opacity: 50%;
+}
+img {
+  width: 17px;
+  margin-bottom: 1px;
+}
+.container-wrapper {
+  box-sizing: border-box;
+  height: 85px;
+}
+.container-header-with-search {
+  font-size: 1.8rem;
+  height: 5.3125rem;
+  padding: 0.8rem 0 0.625rem;
+}
+
+.container-header-with-search .brand-shopee {
+  width: 2.5rem;
+  margin-left: 2.5rem;
+  padding-bottom: 1rem;
+}
+.container-header-with-search .shopee-searchbar .searchbar-main .searchbar-main-input {
+  width: 840px;
+  height: 45px;
+}
+
+.container-header-with-search .list-searchbar .navbar .nav-item {
+  font-size: 0.7rem;
+  color: #fff;
+  list-style-type: none;
+  padding-right: 1rem;
+}
+.container-header-with-search .cart-wrapper {
+  width: 28px;
+}
+
+.header-with-search_search-section {
+  width: 840px;
+  height: 59px;
+}
+
+.shopee-searchbar .searchbar-main {
+  box-sizing: border-box;
+  width: 840px;
+  height: 40px;
+}
+
+.shopee-searchbar .searchbar-button {
+  position: absolute;
+  background: rgb(251, 85, 51);
+  height: 35px;
+  width: 60px;
+  padding: 0 12px;
+  margin: 4px;
+  z-index: 10;
+  align-items: flex-end;
+}
+/* end header */
+
+/* start content */
+.content {
+  display: block;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.content .container-content .wrap-carousel {
+  height: 250px;
+  position: relative;
+  top: 9.5rem;
+}
+.content .container-content .wrap-carousel .container-content-banner {
+  margin: 0;
+  padding-right: 0;
+  padding-left: 2.8rem;
+}
+
+.content .container-content .wrap-carousel .carousel-indicators button {
+  border: 0;
+  border-radius: 20px;
+  width: 10px;
+  height: 10px;
+}
+.content .container-content .wrap-carousel .container-content-img {
+  margin: 0;
+  padding-left: 2px;
+  padding-right: 2.8rem;
+}
+
+/* start jenis sale */
+.jenis-sale {
+  padding: 1rem 3rem;
+  margin-top: 9.5rem;
+}
+.wrap-img {
+  border: 1px solid #d4d4d4;
+  border-radius: 12px;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  padding: 5px;
+}
+.wrap-img img {
+  width: 100%;
+  height: 100%;
+}
+
+/* kategori */
+.kategori {
+  background-color: rgb(236, 236, 236);
+  padding-right: 4rem;
+}
+
+.kategori .kategori-content {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  margin: 1.2rem 2rem;
+}
+.kategori h6 {
+  color: rgb(110, 108, 108);
+}
+
+.kategori .kategori-img {
+  width: 140px;
+  height: 160px;
+  padding: 1rem;
+  border: 1px solid rgb(237, 229, 229);
+}
+.kategori .card-img img {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+}
